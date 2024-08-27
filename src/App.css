@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+  background-color: #1c2a35; /* This is a dark blue-gray color similar to the one from the image */
+  color: #edf2f4; /* Light gray/white for text color */
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: #edf2f4; /* Matching text color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+  background-color: #2b2d42; /* Slightly lighter than the background, similar to the card style in the image */
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.card-body {
+  color: #edf2f4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1em;
 }
